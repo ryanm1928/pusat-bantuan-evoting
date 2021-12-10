@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pusat Bantuan Evoting</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <!-- Font Awesome JS -->
+    <link rel="stylesheet" href="icon/css/font-awesome.min.css">
+
+</head>
+
+<body class="mb-5">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header" style="margin-top:90px">
+                <center>
+                    <h3>Pusat Bantuan E-Voting</h3>
+                </center>
+            </div>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">General User</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#help1">Cara Voting</a>
+                        </li>
+                        <li>
+                            <a href="#help2">Video Tutorial</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#homeadminmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">General Admin</a>
+                    <ul class="collapse list-unstyled" id="homeadminmenu">
+                        <li>
+                            <a href="#helpadmin1">Membuat dan Edit Voting</a>
+                        </li>
+                        <li>
+                            <a href="#helpadmin2">Melihat Hasil Voting</a>
+                        </li>
+                        <li>
+                            <a href="#helpadmin3">Manajemen User</a>
+                        </li>
+                        <li>
+                            <a href="#helpadmin4">Membuat akun dan import User</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#homeprotofolio" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">More Info</a>
+                    <ul class="collapse list-unstyled " id="homeprotofolio">
+                        <li>
+                            <a href="#dev">Developer</a>
+                        </li>
+                        <li>
+                            <a href="https://ryanm1928.github.io/" target="_blank">Protofolio</a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send/?phone=6289513653977&text&app_absent=0" target="_blank">Contact</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Page Content  -->
+    <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-blue fixed-top" style="background-color: #7386D5;">
+            <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" class="btn btn-light" style="width: 50px">
+                    <i class="fa fa-bars" aria-hidden="true" style="font-size: 25px"></i>
+                </button>
+                <span id="text-menu" class="text-light">Menu</span>
+                <span id="sourcecut" class="text-light">Tekan "/" untuk scroll otomatis ke atas</span>
+                <span id="text-header" class="text-light">E-Voting</span>
+            </div>
+        </nav>
+        <details open class="container" id="help1" style="margin-top:80px">
+            <summary>
+                User Cara voting
+            </summary>
+            <center>
+                <p>
+                    <p align="left">
+                        <div>&nbsp;1] Silakan akses link yang diberikan panitia.</div>
+                        <div>2] Kemudian pilih kelas sesuai dengan kelas kamu.</div>
+                        <div>3] Kemudian pilih nama kamu.</div>
+                        <div>4] Kemudian masukan password yang telah di berikan admin.</div>
+                        <div>5] Lalu klik Login.</div>
+                    </p>
+                    <img src="img/versi 2.png" class="img-fluid" width="250" height="250" alt="">
+                    <div class="mt-3">4] Kemudian klik <b>lakukan voting</b>.</div>
+                    <img src="img/2.png" class="img-fluid" width="250" height="250" alt="">
+                    <div>5] Akan muncul kandidat yang akan maju menjadi pemimpin kemudian, tekan <b>vote</b> pada calon pilihan
+                        kalian.</div>
+                    <img src="img/3.png" class="img-fluid" width="250" height="250" alt="">
+                    <div class="mt-3">6] Setelah menekan vote akan mundul pop up verifikasi lalu klik <b>pilih</b>.</div>
+                    <img src="img/4.png" class="img-fluid" width="250" height="250" alt="">
+                    <div class="mt-3">7] Hore... voting berhasil dengan tanda <b>ceklist hijau berhasil</b> </div>
+                    <img src="img/5.png" class="img-fluid" width="250" height="250" alt="">
+                    <div class="mt-5">8] Kalian bisa logout dengah menekan <b><i>Bars </i></b>(garis 3) lalu klik <i>logout</i>.</div>
+                    <img src="img/6.png" class="img-fluid" width="250" height="250" alt="">
+                </p>
+            </center>
+        </details>
+        <div class="line" id="help2"></div>
+        <details open class="container">
+            <summary>
+                Video Tutorial
+            </summary>
+            <center>
+                <video controls width="700">
+                    <source src="video/Tutorial.mp4">
+                </video>
+            </center>
+        </details>
+        <div class="line" id="helpadmin1"></div>
+        <details open class="container">
+            <summary>
+                Admin Membuat dan Mengedit Voting
+            </summary>
+            <p class="text-dark">
+                Evoting memberikan fitur membuat voting untuk user melakukan voting
+            </p>
+            <b>Membuat voting:</b>
+            <ul>
+                <li>Untuk membuat voting anda bisa menekan menu <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-plus" aria-hidden="true"></i> Buat Voting</b>
+                </li>
+                <li>Lalu aplikasi akan meminta jumlah kadidat yang akan maju <b>Min:2 | Max:6</b> Kadidat</li>
+                <li>Setelah memasukan jumlah kadidat anda dapat mengisi form yang telah di sediakan</li>
+                <li>Setelah selesai mengisi form anda dapat menekan tombol <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i>  <button class="btn btn-success"><i class="fa fa-save" aria-hidden="true"></i> Buat Voting</button></li>
+            </ul>
+            <div class="line2"></div>
+            <p class="text-dark">
+                Evoting memberikan fitur edit voting bila ada kesalahan dalam pengisian form
+            </p>
+            <b>Edit voting:</b>
+            <ul>
+                <li>Untuk mengedit voting anda bisa menekan menu <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-home" aria-hidden="true"></i> Home</b>
+                </li>
+                <li>Anda akan melihat table data voting yang telah anda buat</b>
+                </li>
+                <li>Pada table anda dapat menekan icon <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-edit" aria-hidden="true"></i></b>
+                </li>
+                <li>Lalu anda akan di sediakan form untuk mengedit data</li>
+            </ul>
+        </details>
+        <div class="line" id="helpadmin2"></div>
+        <details open class="container">
+            <summary>
+                Admin Melihat Hasil Voting
+            </summary>
+            <p class="text-dark">
+                Evoting memberikan fitur melihat hasil voting telah di lakukan user
+            </p>
+            <ul>
+                <li>Untuk melihat voting anda bisa menekan menu <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-eye" aria-hidden="true"></i> Lihat Voting</b>
+                </li>
+                <li>
+                    Anda akan melihat table data voting yang telah anda buat</b>
+                </li>
+                <li>Pada table Action anda dapat menekan icon <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-eye" aria-hidden="true"></i></b> untuk melihat hasil voting</li>
+            </ul>
+        </details>
+        <div class="line" id="helpadmin3"></div>
+        <details open class="container" id="help2">
+            <summary>
+                Admin Manajemen User
+            </summary>
+            <p class="text-dark">
+                Evoting memberikan fitur manajemen user yang berguna untuk mengatur data user
+            </p>
+            <b>Manajemen User:</b>
+            <ul>
+                <li>Untuk memanajemen user anda bisa menekan menu <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-bar-chart" aria-hidden="true"></i> Statistik Pengguna</b>
+                </li>
+                <li>Pada ada form pencarian anda bisa gunakan untuk mencari data user</li>
+                <li>Di bawah form pencarian ada 3 card untuk memonitoring user</li>
+                <li>Kemudian pada table berisi data user yang berguna untuk menampilkan data user</li>
+                <li>Pada table status berguna untuk melihat apakah user sudah melakukan voting / belum</li>
+                <li>Pada table Action anda dapat menekan icon <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-edit" aria-hidden="true"></i></b> Untuk mengedit data user</li>
+                <li>Pada table Action anda dapat menekan icon <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-trash" aria-hidden="true"></i></b> Untuk menghapus data user</li>
+            </ul>
+            
+        </details>
+        <div class="line" id="helpadmin4"></div>
+        <details open class="container">
+            <summary>
+                Membuat dan import akun User
+            </summary>
+            <p class="text-dark">Evoting memberikan fitur membuat akun user yang di gunakan untuk melakukan voting</p>
+            <b>Membuat akun user:</b>
+            <ul>
+                <li>Untuk membuat akun user anda bisa menekan menu <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <b><i class="fa fa-user-plus" aria-hidden="true"></i> Tambah Pengguna</b>
+                </li>
+                <li>Kemudian akan di sediakan form yang bisa anda bisa gunakan untuk membuat akun user</li>
+            </ul>
+            <div class="line2"></div>
+            <p class="text-dark">
+                Evoting memberikan fitur import user apabila ingin membuat akun yang banyak sekaligus dengan menggunakan MS excel
+            </p>
+            <b>import user:</b>
+            <ul>
+                <li>Anda dapat menekan tombol <i class="text-secondary fa fa-chevron-right" aria-hidden="true"></i> <button class="btn btn-primary"><i class="fa fa-upload" aria-hidden="true"></i> ImportData</button></li>
+                <li>
+                    Kemudian anda akan di tampilkan syarat dan ketentuan import data 
+                </li>
+                <li>
+                    Setelah memahami syarat dan ketentuan import data anda dapat melakukan import data
+                </li>
+            </ul>
+        </details>
+        <div class="line" id="about"></div>
+        <details open class="container">
+            <summary>
+                About
+            </summary>
+            <p class="text-dark">Aplikasi E-Voting berbasis website yang di bangun menggunakan Laravel versi 8 untuk backend & Boostrap versi 4 untuk Frontend, Aplikasi ini bisa di gunakan untuk Kegiatan voting secara online seperti Pemilihan Ketua OSIS dll.
+                Adapun fitur yang yang ada dalam Aplikasi ini:</p>
+            <div class="d-block">
+                <b> Fitur untuk User:</b>
+                <ul>
+                    <li>Login System User </li>
+                    <li>User dapat melakukan voting </li>
+                    <li>Validasi User bila melakukan voting </li>
+                    <li>User dapat mengirim pesan untuk admin </li>
+                    <li>Ubah password User </li>
+                    <li>Reponsif </li>
+                </ul>
+            </div>
+            <div>
+                <b>Fitur untuk Admin:</b>
+                <ul>
+                    <li>Manage data voting </li>
+                    <li>Manage data user </li>
+                    <li>Admin dapat membalas pesan dari user </li>
+                    <li>Validasi untuk admin bila melakukan voting </li>
+                    <li>Responsif</li>
+                    <li>pdf reporting</li>
+                </ul>
+            </div>
+            <a class="text-primary" href="https://github.com/ryanm1928/Laravel-Evoting-Pemilihan-Ketua-osis">Source Code Aplikasi</a>
+        </details>
+        <div class="line"></div>
+        <details open class="container" id="dev">
+            <summary>
+                Developer
+            </summary>
+            <div class="row justify-content-center">
+                <div class="col-sm-3 mb-2">
+                    <center>
+                        <img src="img/IMG20211014212822_00.jpg" alt="" class="rounded-circle">
+                        <h4>MOHAMAD RIYAN</h4>
+                        <h6 class="text-dark mt-0">Developer Evoting</h6>
+                    </center>
+                </div>
+                <div class="col-sm-3">
+                    <center>
+                        <img src="img/DSC00234.JPG" alt="" class="rounded-circle">
+                        <h4>KURNIA ARDIANSYAH</h4>
+                        <h6 class="text-dark">Contribution Evoting</h6>
+                    </center>
+                </div>
+            </div>
+        </details>
+        <div style="margin-bottom: 100px"></div>
+    </div>
+    </div>
+    <div class="overlay"></div>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="script/script.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#text-menu').addClass("d-none");
+        $("#sidebar").mCustomScrollbar({
+            theme: "minimal"
+        });
+
+        $('#dismiss, .overlay').on('click', function() {
+            $('#sidebar').removeClass('active');
+            $('.overlay').removeClass('active');
+            $('#sidebarCollapse').removeClass('d-none');
+            $('#text-menu').addClass("d-none");
+            
+
+        });
+
+        $('#sidebarCollapse').on('click', function() {
+            $(this).addClass('d-none');
+            $('#text-menu').removeClass("d-none");
+            $('#sidebar').addClass('active');
+            $('.overlay').addClass('active');
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+    </script>
+</body>
+
+</html>
